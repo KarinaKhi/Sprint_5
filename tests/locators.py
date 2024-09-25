@@ -22,8 +22,7 @@ class Locators:
 
     # Личный кабинет
     ORDER_BUTTON = (By.XPATH, "//button[text()='Оформить заказ']")  # Кнопка Оформления заказа
-    LOGOUT_BUTTON = (
-    By.XPATH, "//button[contains(@class, 'Account_button__14Yp3') and text()='Выход']")  # Кнопка выхода из аккаунта
+    LOGOUT_BUTTON = (By.XPATH, "//button[text()='Выход']")  # Кнопка выхода из аккаунта
     PROFILE_LINK = (By.XPATH, "//a[text()='Профиль']")  # Кнопка Профиля в личном кабинете
     CONSTRUCTOR_BUTTON = (By.XPATH, "//p[text()='Конструктор']")  # Переход в Конструктор
     LOGO_BUTTON = (By.XPATH, "//div[@class='AppHeader_header__logo__2D0X2']")  # Логотип Stellar Burgers
